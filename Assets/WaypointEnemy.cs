@@ -24,9 +24,9 @@ public class WaypointEnemy : MonoBehaviour
             {
                 // What happens when the enemy reaches the end of the level?
                 
-                
-                   new houseHealthTest().TakeDamage(1);
-                Destroy(gameObject);
+                 // Destroy(gameObject);
+                   new houseHealthTest().TakeDamage(5);
+              
                 
             }
         }
